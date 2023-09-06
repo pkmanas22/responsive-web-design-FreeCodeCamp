@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
@@ -7,63 +6,89 @@
 </head>
 
 <body>
+    <!-- Main content section -->
     <main>
+        <!-- Main heading -->
         <h1>CatPhotoApp</h1>
+
+        <!-- Section for cat photos -->
         <section>
+            <!-- Subheading for cat photos -->
             <h2>Cat Photos</h2>
-            <!-- TODO: Add link to cat photos -->
+            <!-- Link to cat photos -->
             <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+            <!-- Image of a cat -->
             <a href="https://freecatphotoapp.com"><img
                     src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
                     alt="A cute orange cat lying on its back."></a>
         </section>
+
+        <!-- Section for cat lists -->
         <section>
+            <!-- Subheading for cat lists -->
             <h2>Cat Lists</h2>
+            <!-- Sub-subheading and unordered list of things cats love -->
             <h3>Things cats love:</h3>
             <ul>
                 <li>cat nip</li>
                 <li>laser pointers</li>
                 <li>lasagna</li>
             </ul>
+            <!-- Image of lasagna with a caption -->
             <figure>
                 <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg"
                     alt="A slice of lasagna on a plate.">
                 <figcaption>Cats <em>love</em> lasagna.</figcaption>
             </figure>
+
+            <!-- Sub-subheading and ordered list of things cats hate -->
             <h3>Top 3 things cats hate:</h3>
             <ol>
                 <li>flea treatment</li>
                 <li>thunder</li>
                 <li>other cats</li>
             </ol>
+            <!-- Image of cats with a caption -->
             <figure>
                 <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
                     alt="Five cats looking around a field.">
                 <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
             </figure>
         </section>
+
+        <!-- Section for cat form -->
         <section>
+            <!-- Subheading for cat form -->
             <h2>Cat Form</h2>
+            <!-- Form for submitting cat photos -->
             <form action="https://freecatphotoapp.com/submit-cat-photo">
+                <!-- Fieldset for cat type -->
                 <fieldset>
                     <legend>Is your cat an indoor or outdoor cat?</legend>
+                    <!-- Radio buttons for indoor and outdoor options -->
                     <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
                     <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
                 </fieldset>
+                <!-- Fieldset for cat personality -->
                 <fieldset>
                     <legend>What's your cat's personality?</legend>
+                    <!-- Checkboxes for cat personality options -->
                     <input id="loving" type="checkbox" name="personality" value="loving" checked> <label
                         for="loving">Loving</label>
                     <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
                     <input id="energetic" type="checkbox" name="personality" value="energetic"> <label
                         for="energetic">Energetic</label>
                 </fieldset>
+                <!-- Input field for cat photo URL -->
                 <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+                <!-- Submit button for the form -->
                 <button type="submit">Submit</button>
             </form>
         </section>
     </main>
+    <!-- Footer section -->
     <footer>
+        <!-- Copyright information -->
         <p>
             No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
         </p>
