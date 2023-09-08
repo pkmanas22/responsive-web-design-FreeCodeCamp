@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" /> <!-- Include external CSS stylesheet -->
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+        <!-- Create a form with POST method and action attribute -->
+        <fieldset>
+            <label for="first-name">Enter Your First Name: <!-- Label for first name input -->
+                <input id="first-name" name="first-name" type="text" required /> <!-- Input field for first name -->
+            </label>
+            <label for="last-name">Enter Your Last Name: <!-- Label for last name input -->
+                <input id="last-name" name="last-name" type="text" required /> <!-- Input field for last name -->
+            </label>
+            <label for="email">Enter Your Email: <!-- Label for email input -->
+                <input id="email" name="email" type="email" required /> <!-- Input field for email -->
+            </label>
+            <label for="new-password">Create a New Password: <!-- Label for password input -->
+                <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required />
+                <!-- Input field for password with pattern and required attribute -->
+            </label>
+        </fieldset>
+        <fieldset>
+            <label for="personal-account">
+                <input id="personal-account" type="radio" name="account-type" class="inline" /> Personal Account
+                <!-- Radio button for personal account -->
+            </label>
+            <label for="business-account">
+                <input id="business-account" type="radio" name="account-type" class="inline" /> Business Account
+                <!-- Radio button for business account -->
+            </label>
+            <label for="terms-and-conditions">
+                <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" />
+                <!-- Checkbox for accepting terms and conditions -->
+                I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/" target="_blank">terms and
+                    conditions</a>
+                <!-- Link to terms and conditions with target="_blank" for opening in a new tab -->
+            </label>
+        </fieldset>
+        <fieldset>
+            <label for="profile-picture">Upload a profile picture: <!-- Label for profile picture input -->
+                <input id="profile-picture" type="file" name="file" /> <!-- Input field for file upload -->
+            </label>
+            <label for="age">Input your age (years): <!-- Label for age input -->
+                <input id="age" type="number" name="age" min="13" max="120" />
+                <!-- Input field for age with minimum and maximum values -->
+            </label>
+            <label for="referrer">How did you hear about us? <!-- Label for referrer select -->
+                <select id="referrer" name="referrer"> <!-- Dropdown select for referrer options -->
+                    <option value="">(select one)</option>
+                    <option value="1">freeCodeCamp News</option>
+                    <option value="2">freeCodeCamp YouTube Channel</option>
+                    <option value="3">freeCodeCamp Forum</option>
+                    <option value="4">Other</option>
+                </select>
+            </label>
+            <label for="bio">Provide a bio: <!-- Label for bio textarea -->
+                <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+                <!-- Textarea for entering a bio with placeholder text -->
+            </label>
+        </fieldset>
+        <input type="submit" value="Submit" /> <!-- Submit button for the form -->
+    </form>
+</body>
+
+</html>
