@@ -1,0 +1,11 @@
+body{
+}
+.format{
+    text-align: center;
+}
+img{
+    width: 400px;
+    height: 400px;
+    border-color: black;
+    border-style: solid;
+}
