@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <!-- Page title -->
+        <h1 id="title">Survey Form</h1>
+        <!-- Description by Mr. Manas -->
+        <p id="description">This form is designed by <em> Mr. Manas</em></p>
+    </header>
+
+    <form action="" id="survey-form">
+        <!-- Personal Information Section -->
+        <div>
+            <label for="name" id="name-label">
+                <!-- Full Name Input -->
+                Enter your full name:
+                <input type="text" id="name" class="personal" placeholder="Enter your full name" required>
+            </label>
+            <label for="email" id="email-label">
+                <!-- Email Input -->
+                Enter your email:
+                <input type="email" id="email" class="personal" placeholder="Enter your email" required>
+            </label>
+            <label for="number" id="number-label">
+                <!-- Mobile Number Input -->
+                Enter your mobile number:
+                <input type="number" id="number" class="personal" placeholder="Enter your mobile number" required>
+            </label>
+        </div>
+
+        <!-- Gender Selection Section -->
+        <div>
+            Gender:
+            <label for="male" class="gender">
+                <!-- Male Radio Button -->
+                <input type="radio" value="male" name="gender" id="male"> Male
+            </label>
+            <label for="female" class="gender">
+                <!-- Female Radio Button -->
+                <input type="radio" value="female" name="gender" id="female"> Female
+            </label>
+            <label for="other" class="gender">
+                <!-- Other Radio Button -->
+                <input type="radio" value="other" name="gender" id="other"> Other
+            </label>
+        </div>
+
+        <!-- Work Preference Selection Section -->
+        <div>
+            Your work preference:
+            <select id="preference">
+                <option value="select" selected>(Select) </option>
+                <option value="full">Full time</option>
+                <option value="part">Part time</option>
+            </select>
+        </div>
+
+        <!-- Role Selection Section -->
+        <div>
+            Your role:
+            <select id="role">
+                <option value="select" selected>(Select) </option>
+                <option value="fullstack">Fullstack </option>
+                <option value="frontend">Frontend</option>
+                <option value="backend">Backend</option>
+            </select>
+        </div>
+
+        <!-- Language Selection Section -->
+        <div>
+            Language known:
+            <label for="html" class="language">
+                <input type="checkbox" value="html" id="html"> HTML
+            </label>
+            <label for="css" class="language">
+                <input type="checkbox" value="css" id="css"> CSS
+            </label>
+            <label for="js" class="language">
+                <input type="checkbox" value="js" id="js"> Java Script
+            </label>
+            <label for="java" class="language">
+                <input type="checkbox" value="java" id="java"> Java
+            </label>
+            <label for="c" class="language">
+                <input type="checkbox" value="c" id="c"> C
+            </label>
+            </label>
+            <label for="cpp" class="language">
+                <input type="checkbox" value="cpp" id="cpp"> C++
+            </label>
+        </div>
+
+        <!-- About Yourself Text Area -->
+        <div>
+            <label for="about">
+                About Yourself:
+                <textarea id="about" cols="30" rows="5" placeholder="Write about yourself..."></textarea>
+            </label>
+        </div>
+
+        <!-- Submit Button -->
+        <div>
+            <input type="submit" id="submit">
+        </div>
+    </form>
+
+    <hr>
+
+    <footer>
+        <section>
+            <!-- Contact Information -->
+            <p>Contact me</p>
+            <a href="https://twitter.com/pkmanas22" target="_blank"><img
+                    src="https://akm-img-a-in.tosshub.com/businesstoday/images/story/202307/x_twitter-sixteen_nine.jpg"
+                    alt="Twitter"></a>
+
+            <a href="https://github.com/pkmanas22" target="_blank"><img
+                    src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="github"></a>
+
+            <a href="https://www.linkedin.com/in/pkmanas22/" target="_blank"><img
+                    src="https://cdn-icons-png.flaticon.com/256/61/61109.png" alt="linkedin"></a>
+
+            <a href="mailto:pkmanas22@gmail.com" target="_blank"><img
+                    src="https://cdn-icons-png.flaticon.com/512/60/60543.png" alt="gmail"></a>
+
+            <a href="tel:+919999999999" target="_blank"><img
+                    src="https://static-00.iconduck.com/assets.00/phone-call-fill-contact-icon-2047x2048-vcoagu3q.png"
+                    alt="contact"></a>
+        </section>
+        <!-- Copyright Information -->
+        <p><em>&#169 Copyright@2023 <strong>pkmanas.com</strong></em></p>
+    </footer>
+</body>
+
+</html>

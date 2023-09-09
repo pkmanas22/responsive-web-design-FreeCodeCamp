@@ -1,0 +1,95 @@
+/* Styling for the body of the webpage */
+body {
+    margin: auto; /* Center align the content horizontally */
+    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif; /* Specify font */
+    font-size: 1.5rem; /* Set font size */
+    width: 60%; /* Set the content width */
+    color: #ffffff; /* Set text color */
+    font-weight: 300; /* Set font weight */
+    letter-spacing: 0.05em; /* Adjust letter spacing */
+    background-image: url(https://dsswebtechsolutions.com/wp-content/uploads/2023/01/Custom-Software-Development.jpg); /* Background image */
+    background-attachment: fixed; /* Fixed background image */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-size: 100% 100%; /* Set background size */
+}
+
+/* Styling for the header section */
+header {
+    font-family: 'Calendas Plus'; /* Specify font */
+    text-align: center; /* Center align text */
+    background-color: rgb(65, 65, 66); /* Set background color */
+    padding-bottom: 3px; /* Add padding to the bottom */
+    margin: 0 15%; /* Set left and right margins */
+    margin-bottom: 10px; /* Add margin to the bottom */
+    border-radius: 10px; /* Add border radius */
+}
+
+/* Styling for the form */
+form {
+    background-color: rgb(65, 65, 66); /* Set background color */
+    padding: 15px; /* Add padding */
+    margin: 0 15%; /* Set left and right margins */
+    border-radius: 10px; /* Add border radius */
+}
+
+/* Styling for labels */
+label {
+    margin: 10px 0; /* Add margin to labels */
+}
+
+/* Styling for input fields with specific IDs or classes */
+.personal,
+#role,
+#preference,
+#about {
+    display: block; /* Display as block elements */
+    font-size: 1.25rem; /* Set font size */
+    width: 100%; /* Set width */
+    margin: 5px auto 5px 0; /* Set margins */
+    border-radius: 8px; /* Add border radius */
+    border-color: black; /* Set border color */
+}
+
+/* Styling for gender and language elements */
+.gender,
+.language {
+    display: block; /* Display as block elements */
+    margin-left: 25%; /* Add margin to the left */
+}
+
+/* Styling for the submit button */
+#submit {
+    display: block; /* Display as a block element */
+    width: 60%; /* Set width */
+    height: 3em; /* Set height */
+    margin: 1em auto; /* Set margins */
+    background-color: rgb(30, 236, 116); /* Set background color */
+    color: white; /* Set text color */
+    border-color: white; /* Set border color */
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer; /* Change cursor on hover */
+}
+
+/* Styling for the submit button on hover */
+#submit:hover {
+    background-color: #bc1eec; /* Change background color on hover */
+    transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+/* Styling for horizontal rule (line) */
+hr {
+    margin: 50px 5% 0 5%; /* Set margins for horizontal rule */
+}
+
+/* Styling for the footer */
+footer {
+    color: rgb(255, 255, 255); /* Set text color */
+    text-align: center; /* Center align text */
+    font-size: medium; /* Set font size */
+}
+
+/* Styling for images */
+img {
+    width: 30px; /* Set image width */
+    height: 30px; /* Set image height */
+}
