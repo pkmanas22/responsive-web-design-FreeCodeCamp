@@ -1,0 +1,56 @@
+/* Styling for the canvas */
+.canvas {
+    width: 500px;
+    height: 600px;
+    background-color: #4d0f00; /* Background color */
+    overflow: hidden;
+    filter: blur(2px); /* Apply a 2px blur effect */
+}
+
+/* Styling for the frame */
+.frame {
+    width: 500px;
+    border: 50px solid black; /* Black border */
+    padding: 50px;
+    margin: 20px auto; /* Center the frame horizontally */
+}
+
+/* Styling for the first element */
+.one {
+    width: 425px;
+    height: 150px;
+    background-color: #efb762; /* Background color */
+    margin: 20px auto; /* Center the element horizontally */
+    box-shadow: 0 0 3px 3px #efb762; /* Add a shadow with 3px blur */
+    border-radius: 9px; /* Rounded corners */
+    transform: rotate(-0.6deg); /* Rotate element slightly */
+}
+
+/* Styling for the second element */
+.two {
+    width: 475px;
+    height: 200px;
+    background-color: #8f0401; /* Background color */
+    margin: 0 auto 20px auto; /* Center the element horizontally and add space at the bottom */
+    box-shadow: 0 0 3px 3px #8f0401; /* Add a shadow with 3px blur */
+    border-radius: 8px 10px; /* Rounded corners with different radii */
+    transform: rotate(0.4deg); /* Rotate element slightly */
+}
+
+/* Styling for the third element */
+.three {
+    width: 91%;
+    height: 28%;
+    background-color: #b20403; /* Background color */
+    margin: auto; /* Center the element horizontally */
+    filter: blur(2px); /* Apply a 2px blur effect */
+    box-shadow: 0 0 5px 5px #b20403; /* Add a shadow with 5px blur */
+    border-radius: 30px 25px 60px 12px; /* Rounded corners with different radii */
+    transform: rotate(-0.2deg); /* Rotate element slightly */
+}
+
+/* Apply blur effect to the first and second elements */
+.one,
+.two {
+    filter: blur(1px); /* Apply a 1px blur effect to both elements */
+}
