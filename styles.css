@@ -1,7 +1,12 @@
 /* *{
     box-sizing: border-box;
 } */
-
+h1{
+    font-size: 60px;
+}
+#connect{
+    font-size: 20px;
+}
 header{
     background-color: rgb(70, 50, 50);
     color: aliceblue;
@@ -25,7 +30,7 @@ body{
     padding: 10px;
     border: 5px double black;
     border-radius: 10px;
-    margin: 15px;
+    margin: 35px;
     background-color: rgb(207, 207, 200);
     text-align: center;
     box-shadow: 3px 3px rgba(00, 00 , 00, 70%);
@@ -35,11 +40,10 @@ img{
     width: 300px;
     height: 300px;
     border-radius: 5px;
-    transform: rotate(-1.5deg);
+    transform: rotate(-1deg);
 }
 img:hover{
-    opacity: 80%;
-    animation: foldpape;
+    opacity: 50%;
 }
 
 h3{
