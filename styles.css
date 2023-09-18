@@ -37,10 +37,10 @@ body{
 }
 
 img{
-    width: 300px;
+    width: 290px;
     height: 300px;
     border-radius: 5px;
-    transform: rotate(-1deg);
+    transform: rotate(-1.5deg);
 }
 img:hover{
     opacity: 50%;
