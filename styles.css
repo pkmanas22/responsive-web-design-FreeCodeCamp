@@ -63,3 +63,14 @@ footer {
     background-color: white;
     margin:auto 8px ;
 }
+.source{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.75rem;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0;
+}
+a:hover{
+    color: rgb(190, 18, 18);
+    opacity: 100%;
+}
