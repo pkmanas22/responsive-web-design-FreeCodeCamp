@@ -1,0 +1,74 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+main {
+    background-color: aliceblue;
+    padding: 1.5rem;
+    margin: 3rem 8px;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+#img-div {
+    background: white;
+    margin: 0;
+    padding: 1rem;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#img-caption {
+    margin: 15px 0 5px 0;
+}
+
+h3 {
+    margin: 50px 0;
+    text-align: center;
+}
+
+ul {
+    text-align: left;
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+}
+
+li {
+    margin: 16px 0;
+}
+
+blockquote {
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+}
+
+a {
+    color: #477ca7;
+}
+
+a:hover {
+    color: blueviolet;
+}
