@@ -43,7 +43,7 @@ img{
     transform: rotate(-1.5deg);
 }
 img:hover{
-    opacity: 50%;
+    opacity: 80%;
 }
 
 h3{
