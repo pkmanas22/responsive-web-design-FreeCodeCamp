@@ -40,7 +40,8 @@ img{
     width: 290px;
     height: 300px;
     border-radius: 5px;
-    transform: rotate(-1.5deg);
+    border: 1px solid black;
+    transform: rotate(-0.5deg);
 }
 img:hover{
     opacity: 80%;
