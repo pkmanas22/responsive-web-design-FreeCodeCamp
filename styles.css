@@ -44,7 +44,7 @@ img{
     transform: rotate(-0.5deg);
 }
 img:hover{
-    opacity: 80%;
+    transform: scale(1.02);
 }
 
 h3{
