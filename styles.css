@@ -1,31 +1,36 @@
-*{
+* {
     box-sizing: border-box;
 }
-h1{
+
+h1 {
     font-size: 60px;
 }
-#connect{
+
+#connect {
     font-size: 20px;
 }
-header{
+
+header {
     background-color: rgb(70, 50, 50);
     color: aliceblue;
     text-align: center;
     padding: 15px;
     border-bottom: 3px solid rgb(131, 243, 187);
 }
-body{
-    background:linear-gradient(145deg, rgb(235, 211, 185), rgb(132, 179, 144), rgb(153, 148, 226))
-    /* background-color: rgb(191, 214, 231); */
+
+body {
+    background: linear-gradient(145deg, rgb(235, 211, 185), rgb(132, 179, 144), rgb(153, 148, 226))
+        /* background-color: rgb(191, 214, 231); */
 }
 
-.container{
+.container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: row;
 }
-.format{
+
+.format {
     width: 320px;
     padding: 10px;
     border: 5px double black;
@@ -33,45 +38,57 @@ body{
     margin: 35px;
     background-color: rgb(207, 207, 200);
     text-align: center;
-    box-shadow: 3px 3px rgba(00, 00 , 00, 70%);
+    box-shadow: 3px 3px rgba(00, 00, 00, 70%);
 }
 
-img{
+img {
     width: 290px;
     height: 300px;
     border-radius: 5px;
     border: 1px solid black;
     transform: rotate(-0.5deg);
 }
-img:hover{
+
+img:hover {
     transform: scale(1.02);
 }
 
-h3{
+h3 {
     color: rgb(46, 38, 158);
     margin: 5px auto;
     font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
 }
+
 footer {
-    color: rgb(22, 52, 224); /* Set text color */
-    text-align: center; /* Center align text */
-    font-size: x-large; /* Set font size */
+    color: rgb(22, 52, 224);
+    /* Set text color */
+    text-align: center;
+    /* Center align text */
+    font-size: x-large;
+    /* Set font size */
 }
-.contact{
+
+.contact {
     width: 50px;
     height: 50px;
     background-color: white;
-    margin:auto 8px ;
+    margin: auto 8px;
 }
-.source{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+.contact:hover{
+    background-color: rgb(252, 215, 10);
+}
+
+.source {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 0.75rem;
     display: flex;
     justify-content: flex-end;
     margin-bottom: 0;
 }
-a:hover{
+
+a:hover {
     color: rgb(190, 18, 18);
     opacity: 100%;
 }
