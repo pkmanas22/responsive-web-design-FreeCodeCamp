@@ -46,11 +46,10 @@ img {
     height: 300px;
     border-radius: 5px;
     border: 1px solid black;
-    transform: rotate(-0.5deg);
 }
 
 img:hover {
-    transform: scale(1.02);
+    transform: scale(1.05);
 }
 
 h3 {
