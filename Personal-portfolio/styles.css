@@ -370,7 +370,3 @@ footer>p {
     text-align: center;
     justify-content: center;
 }
-
-@media (max-width: 30em) {
-    footer {}
-}
